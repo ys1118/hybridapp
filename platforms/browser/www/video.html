@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="themes/mytheme.min.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="video/video-js.css">
+  <script src="video/video.js"></script>
+  <style type="text/css">
+    #video_canvas {
+      margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 0px;
+      margin-left: auto;
+      width: 320px;
+      height: 240px;
+    }
+    .content_style {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div data-role="page" id="video_value" data-add-back-btn="true">
+    <div data-role="header" data-theme="b">
+      <a href="index.html" rel="external" data-icon="home" data-direction="reverse">Home</a>
+      <h1>최고의 가치</h1>
+    </div>
+    <div data-role="content" data-theme="c" class="content-style">
+      <div id="video_canvas">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/466E33mxzBs" frameborder="0" allowfullscreen></iframe>
+        <!--
+        <div>
+          <video class="video-js vjs-default-skin" width="320" height="240" controls preload="auto" poster="img/most_value.jpg" data-setup="{}">
+            <source src="video/virtual_university.mp4"
+            type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+          </video>
+          <p class="vjs-no-video">
+            <strong>비디오 다운로드:</strong>
+            <a href="video/virtual_university.mp4" target="_blank">MP4</a>
+            <br>
+          </p>
+        </div>
+      -->
+      </div>
+    </div>
+    <div data-role="footer" data-theme="b">
+      <h2>버추얼 대학교</h2>
+    </div>
+  </div>
+</body>
+</html>
